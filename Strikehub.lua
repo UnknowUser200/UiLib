@@ -306,7 +306,7 @@ function lib:Window(text, preset, closebind)
     task.wait(1)
     TweenService:Create(HiText, TweenInfo.new(0.3), { TextTransparency = 1 }):Play()
     task.wait(0.3)
-    HiText.Text = "Thanks for using Drible"
+    HiText.Text = "Thanks for using Strike Hub"
     task.wait(0.1)
     TweenService:Create(HiText, TweenInfo.new(0.3), { TextTransparency = 0 }):Play()
     wait(1)
